@@ -13,7 +13,6 @@ html {
 h1 {
   color: #3f1622;
   font-weight: bold;
-  font-family: sans-serif;
 }
 
 a {
@@ -21,7 +20,6 @@ a {
   font-style: normal;
   color: #8f2440;
   font-weight: bold;
-  font-family: sans-serif;
 }
 
 a:hover {
@@ -30,16 +28,14 @@ a:hover {
 }
 
 img {
-  width: inherit;
+  width: 100%;
 }
 
 figcaption {
-  font-family: serif;
   font-style: oblique;
 }
 
 .line {
-  font-family: serif;
   font-weight: bold;
   color: #222;
   font-size: 1.125rem;
@@ -47,17 +43,31 @@ figcaption {
 
 blockquote {
   font-size: 1.5rem;
-  font-family: serif;
   font-style: normal;
 }
 
 cite {
   font-size: .8rem;
-  font-family: serif;
   font-style: italic;
 }
 
 h2 {
   color: #3f1622;
   font-weight: bold;
+}
+
+.cool-list {
+  list-style-type: lower-greek;
+}
+
+dt {
+  font-weight: bold;
+}
+
+.last-list {
+  list-style-type: disc;
+}
+
+.italic {
+  font-style: italic;
 }
